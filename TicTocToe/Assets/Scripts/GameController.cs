@@ -22,13 +22,13 @@ public class GameController : MonoBehaviour
         if(turn == 0)
         {
             buttonlist[index].text = "X";
-            infoText.text = "Sýra: X";
+            infoText.text = "Sýra: O";
             turn = 1;
         }
         else
         {
             buttonlist[index].text = "O";
-            infoText.text= "Sýra: O";
+            infoText.text= "Sýra: X";
             turn = 0;
         }
 
