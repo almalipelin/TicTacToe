@@ -77,7 +77,8 @@ public class GameController : MonoBehaviour
         turn = 0;
         moveCount = 0;
         isGameActive = true;
-        infoText.text = "Sýra: X";//Butonu gizle
+        infoText.text = "Sýra: X";
+        restartButton.SetActive(false);//Butonu gizle
 
         foreach(var btn in buttonlist)
         {
